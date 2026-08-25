@@ -1,4 +1,4 @@
-package io.github.mohamedennahdi.scedasis.json.engine;
+package io.github.mohamedennahdi.pugillares.json.engine;
 
 
 import static org.junit.jupiter.api.Assertions.fail;
@@ -19,7 +19,7 @@ import org.testcontainers.junit.jupiter.Testcontainers;
 import net.sf.ennahdi.automatic.report.generator.generic.engine.Engine;
 
 @Testcontainers
-public class JSONEngineTest {
+class JSONEngineTest {
 
 	private final static Logger logger = LoggerFactory.getLogger(JSONEngineTest.class);
 
